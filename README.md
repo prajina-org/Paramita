@@ -1,4 +1,4 @@
-# Paramita Tibetan Font (般若藏文字體)
+# Paramita Tibetan Font (彼岸藏文字體)
 
 [![License: OFL 1.1](https://img.shields.io/badge/License-OFL%201.1-lightgreen.svg)](http://scripts.sil.org/OFL)
 
@@ -12,7 +12,7 @@
 
 ### 介紹
 
-Paramita (般若) 藏文字體是由般若文化研究學會 (Prajina Cultural Research Association) 發起的一項開源字體專案。般若文化研究學會是由一群來自台灣的頂尖藏文翻譯、AI工程師所組成的專業團隊，致力於運用最新科技來保存和推廣藏傳文化，並與南印度三大寺的六家圖書館等機構合作。
+Paramita (彼岸) 藏文字體是由般若文化研究學會 (Prajina Cultural Research Association) 發起的一項開源字體專案。般若文化研究學會是由一群來自台灣的頂尖藏文翻譯、AI工程師所組成的專業團隊，致力於運用最新科技來保存和推廣藏傳文化，並與南印度三大寺的六家圖書館等機構合作。
 
 此專案開源 Paramita 藏文字體，希望能為需要使用藏文的信眾、研究者、設計師及所有藏人提供一個美觀且自由使用的選擇，讓藏傳文化的智慧與慈悲透過清晰優美的文字傳播得更遠，讓智慧不再遙不可及。
 
@@ -45,7 +45,7 @@ Paramita 字體根據 **SIL Open Font License, Version 1.1 (OFL 1.1)** 授權發
 
 ### Introduction
 
-Paramita (般若) Tibetan Font is an open-source font project initiated by the Prajina Cultural Research Association. The Association comprises a professional team of top Tibetan translators and AI engineers from Taiwan, dedicated to preserving and promoting Tibetan culture using the latest technology, in collaboration with institutions like the six libraries of the three great monasteries in South India.
+Paramita (彼岸) Tibetan Font is an open-source font project initiated by the Prajina Cultural Research Association. The Association comprises a professional team of top Tibetan translators and AI engineers from Taiwan, dedicated to preserving and promoting Tibetan culture using the latest technology, in collaboration with institutions like the six libraries of the three great monasteries in South India.
 
 This project open-sources the Paramita Tibetan font, aiming to provide a beautiful and freely usable option for devotees, researchers, designers, and anyone needing to use the Tibetan script. We hope that the wisdom and compassion of Tibetan culture can spread further through clear and elegant text, making wisdom accessible.
 
