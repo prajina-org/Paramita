@@ -33,7 +33,28 @@ Paramita 字體是基於 [Jomolhari-Regular](https://fonts.google.com/specimen/J
 
 Paramita 字體根據 **SIL Open Font License, Version 1.1 (OFL 1.1)** 授權發行。
 
-*   [點此查看授權條款全文](https://openfontlicense.org/)
+*   [本 repo 的授權條款全文](OFL.txt)
+
+### 在 Web App 使用
+
+建議使用完整字形的 **WOFF2** 網頁版，搭配只套用藏文的 CSS：
+
+1. 將 [`web/Paramita.woff2`](web/Paramita.woff2)、[`web/paramita.css`](web/paramita.css)、[`web/ATTRIBUTION.txt`](web/ATTRIBUTION.txt) 與 [`OFL.txt`](OFL.txt) 放到 app 的公開靜態目錄，例如 `public/fonts/paramita/`。CSS 與 WOFF2 請放在同一層。
+2. 載入 CSS，將 Paramita 放在字體清單最前面：
+
+```html
+<link rel="stylesheet" href="/fonts/paramita/paramita.css">
+<style>
+  body { font-family: "Paramita", system-ui, sans-serif; }
+  input, textarea, button { font: inherit; }
+  [lang="bo"] { line-height: 2; letter-spacing: normal; }
+</style>
+<p lang="bo">སངས་རྒྱས། བསྒྲུབས།</p>
+```
+
+沒有藏文的頁面不需要下載字體；藏文出現時才下載完整 WOFF2。中文和英文仍使用後面的字體。原始 TTF 保留給桌面安裝。
+
+接入細節、可選預載、快取、藏文排版注意事項及可重建流程，請見 [Web 使用指南](web/README.md#中文版)。
 
 ### 支持我們
 
@@ -66,10 +87,30 @@ To make wisdom accessible and bring inner peace to those facing life's challenge
 
 The Paramita font is licensed under the **SIL Open Font License, Version 1.1 (OFL 1.1)**.
 
-*   [View the full license text here](https://openfontlicense.org/)
+*   [Full license text in this repository](OFL.txt)
+
+### Use in a Web App
+
+Use the full **WOFF2** web font with Tibetan-scoped CSS:
+
+1. Copy [`web/Paramita.woff2`](web/Paramita.woff2), [`web/paramita.css`](web/paramita.css), [`web/ATTRIBUTION.txt`](web/ATTRIBUTION.txt), and [`OFL.txt`](OFL.txt) to a public static directory such as `public/fonts/paramita/`. Keep the CSS and WOFF2 together.
+2. Load the stylesheet and put Paramita first in your font stack:
+
+```html
+<link rel="stylesheet" href="/fonts/paramita/paramita.css">
+<style>
+  body { font-family: "Paramita", system-ui, sans-serif; }
+  input, textarea, button { font: inherit; }
+  [lang="bo"] { line-height: 2; letter-spacing: normal; }
+</style>
+<p lang="bo">སངས་རྒྱས། བསྒྲུབས།</p>
+```
+
+Pages without Tibetan do not need to download the font. Tibetan text triggers the full WOFF2 download; Chinese and Latin use your fallback fonts. The original TTF remains available for desktop installation.
+
+See the [web integration guide](web/README.md#english) for optional preload, caching, Tibetan shaping, and reproducible builds.
 
 ### Support Us
 
 If you resonate with our mission and wish to support the preservation and promotion of Tibetan culture, please visit the [Prajina Cultural Research Association website](https://Prajina.org) for more information or to participate in supporting our projects.
-
 
