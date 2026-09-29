@@ -1,0 +1,15 @@
+Paramita Tibetan Font (彼岸藏文字體)
+Source: https://github.com/prajina-org/Paramita
+Designer: Evian Tien
+Publisher: Prajina Cultural Research Association (般若文化研究學會)
+Derived from Jomolhari-Regular.
+
+Copyright (c) 2006 by Christopher Fynn. All rights reserved.
+License: SIL Open Font License, Version 1.1, as declared in Paramita.ttf and README.md.
+The complete license is supplied in OFL.txt at the repository root; copy it
+alongside this file when redistributing the web font.
+
+Paramita.woff2 is built from this repository's Paramita.ttf without subsetting.
+All glyphs, OpenType shaping data, metrics, hinting, and name records are retained.
+Only the DSIG signature is removed during conversion to the WOFF2 container.
+The CSS family alias is Paramita; the font's internal family remains Paramita_v1.

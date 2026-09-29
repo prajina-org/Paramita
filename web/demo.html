@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paramita web font demo</title>
+  <link rel="stylesheet" href="./paramita.css">
+  <style>
+    body { max-width: 48rem; margin: 2rem auto; padding: 0 1rem; font-family: "Paramita", system-ui, sans-serif; line-height: 2; }
+    .tibetan { font-size: 2rem; letter-spacing: normal; }
+    input, textarea, button { font: inherit; }
+    textarea { box-sizing: border-box; width: 100%; min-height: 8rem; padding: 0.5rem; }
+  </style>
+  <h1>Paramita web font demo</h1>
+  <p>English and <span lang="zh-Hant">中文</span> use your system fonts. Tibetan uses Paramita.</p>
+  <p class="tibetan" lang="bo">བོད་ཡིག སངས་རྒྱས། བསྒྲུབས། ཧཱུྃ། ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།</p>
+  <p>Mixed text: <span lang="zh-Hant">智慧</span> · <span lang="bo">ཤེས་རབ།</span> · wisdom · 2026 · <span lang="bo">༢༠༢༦</span></p>
+  <label for="sample">Try Tibetan text, including consonant stacks:</label>
+  <textarea id="sample" lang="bo" class="tibetan">བསྒྲུབས། ཧཱུྃ།</textarea>
+  <p>Check tall stacks and vowel marks at narrow widths and at 200% zoom.</p>
+</html>
